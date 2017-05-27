@@ -129,6 +129,7 @@ body {
 	}
 		#tweet-controls {
 			text-align: right;
+			display: none;
 		}
 			#tweet-controls div {
 				display: inline-block;
@@ -168,7 +169,12 @@ body {
 
 	.tweet-actions {
 		text-align: right;
+		visibility: hidden;
 	}
+	.tweetShowActions {
+		visibility: visible;
+	}
+
 		.tweet-actions ul {
 			list-style-type: none;
 		}
